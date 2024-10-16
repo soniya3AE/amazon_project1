@@ -21,8 +21,6 @@ public class Order_and_return_page {
 
 	
 	//step1
-	
-	
 	@FindBy(xpath="//a[@id='nav-orders']")
 	WebElement  order_return;
 	@FindBy(id="time-filter")

@@ -25,8 +25,7 @@ public class Amazon_Registration_Page {
 	 @FindBy(xpath="(//div[@id='glow-ingress-block']//span)[1]")
      WebElement userName_In_HomePage;
 	
-	
-	
+
 	//step2 
 	public void create_amazon_Account() {
 		create_account_button.click();
@@ -37,10 +36,7 @@ public class Amazon_Registration_Page {
 		String expected="soniya";
 		System.out.println("The userName in Home page is : "+userName_in_HomePage_actual);
 		Assert.assertEquals(userName_in_HomePage_actual, expected, "failed");
-		
-		
-		
-		
+			
 	}
 	
 	public void enter_UserName() {

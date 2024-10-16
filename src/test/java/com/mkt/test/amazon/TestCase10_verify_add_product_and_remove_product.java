@@ -28,16 +28,6 @@ public class TestCase10_verify_add_product_and_remove_product  extends BaseLanch
 	a1.go_cart_page(driver);
 	a1.delete_product();
 	
-	
-	
-	
-	
-	
-	
-	
-	
-
-	
 	}
 	
 }

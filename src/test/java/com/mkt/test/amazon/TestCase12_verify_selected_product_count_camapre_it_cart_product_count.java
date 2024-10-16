@@ -28,23 +28,11 @@ public class TestCase12_verify_selected_product_count_camapre_it_cart_product_co
 	a1.validate_after_adding_product_to_card_Count();
 	a1.go_cart_page(driver);
 		
-
 	Procced_to_payment_page p1 = new Procced_to_payment_page(driver);
 	p1.validate_product_to_buy();
 	p1.quntity_count_in_payment_page();
 
 	
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
 	
 	}
 	

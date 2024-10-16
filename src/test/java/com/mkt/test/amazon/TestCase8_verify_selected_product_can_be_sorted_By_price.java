@@ -20,7 +20,7 @@ public class TestCase8_verify_selected_product_can_be_sorted_By_price  extends B
 	l1.validate_select_searched_product(driver);
 	l1.validate_product_price();
 	l1.validate_product_details();
-	;
+	
 	}
 	
 }

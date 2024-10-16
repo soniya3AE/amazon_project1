@@ -10,7 +10,6 @@ import com.mkt.source.amazon.Login_Amazon_Page;
 public class TestCase3_Verify_incorrect_emailPassword_notAllowed_to_login extends BaseLanchQuit {
 
 	
-
 	@Test
 	public void incorrect_Email_Password_Not_allowed_Login() throws InterruptedException {
 		Login_Amazon_Page l1 = new Login_Amazon_Page(driver);
@@ -23,9 +22,7 @@ public class TestCase3_Verify_incorrect_emailPassword_notAllowed_to_login extend
 		/*validate the in incorrect password */
 		//l1.enter_incorrect_password();
 		//l1.singin_button();
-		//l1.validate_incorrect_passsword();
-		
-		
+		//l1.validate_incorrect_passsword();		
 	}
 	
 	

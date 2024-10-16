@@ -23,9 +23,6 @@ public class TestCase9_verify_can_we_add_product_to_cartpage  extends BaseLanchQ
 	a1.validate_add_to_cart();
 	a1.validate_product_added_sucess_message();
 	
-	
-
-	
 	}
 	
 }

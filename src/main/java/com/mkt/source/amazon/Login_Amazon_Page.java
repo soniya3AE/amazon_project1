@@ -96,10 +96,6 @@ public class Login_Amazon_Page {
 	WebElement max_price;
 	
 	
-
-	
-	
-	
 	// Step2 : define the method for webElement
 	
 	public void  mouseOver_singin(WebDriver driver) {
@@ -107,13 +103,7 @@ public class Login_Amazon_Page {
 		action1.moveToElement(account_List).perform();
 		singin_link.click();	
 	}
-	
-	
-	
-	
-	
-	
-	
+		
 	public void email() throws InterruptedException {
 		Thread.sleep(2000);
 		email_tf.sendKeys("7406501839");
@@ -274,7 +264,6 @@ public class Login_Amazon_Page {
 	Assert.assertTrue(true);
 	}
 	
-	
 	public void verify_customer_review() {
 	   String customer_review_details= customer_review.getText();
 	   System.out.println(customer_review_details);
@@ -283,9 +272,7 @@ public class Login_Amazon_Page {
 	}
 	
 	
-	
-	
-	
+
 	// step3
 	public Login_Amazon_Page(WebDriver driver) {
 		PageFactory.initElements(driver, this);

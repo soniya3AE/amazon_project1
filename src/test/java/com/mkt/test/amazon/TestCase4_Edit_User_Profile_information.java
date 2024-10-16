@@ -9,7 +9,6 @@ import com.mkt.source.amazon.Login_Amazon_Page;
 @Listeners(ListernerProgram.class)
 public class TestCase4_Edit_User_Profile_information  extends BaseLanchQuit{
 	
-	
 	@Test 
 	public void edit_user_profile() throws InterruptedException {
 		Login_Amazon_Page l1 = new Login_Amazon_Page(driver);
@@ -25,9 +24,7 @@ public class TestCase4_Edit_User_Profile_information  extends BaseLanchQuit{
 	    l1.edit_user_profile_name();
 	    l1.submit_edited_user_profile_name();  
 	    l1.validate_user_profile_name_edited_successfully(driver);
-		
-		
-		
+			
 	}
 
 }

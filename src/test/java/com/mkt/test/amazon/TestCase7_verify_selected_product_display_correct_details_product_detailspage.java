@@ -20,7 +20,7 @@ public class TestCase7_verify_selected_product_display_correct_details_product_d
 	l1.validate_select_searched_product(driver);
 	l1.validate_product_price();
 	l1.validate_product_details();
-	;
+	
 	}
 	
 }

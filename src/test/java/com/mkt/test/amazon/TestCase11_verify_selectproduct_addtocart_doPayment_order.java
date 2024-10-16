@@ -30,18 +30,6 @@ public class TestCase11_verify_selectproduct_addtocart_doPayment_order  extends 
 	p1.use_cash_on_delivery_method();
 	p1.order_review();
 	
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-	
 	}
 	
 }

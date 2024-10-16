@@ -32,11 +32,7 @@ public class TestCase_Login_amazon_to_cart {
 	    h1.search_product();
 	    h1.select_Product();
 	    h1.parent_child(driver);
-	    
-	    //handle the child window
-	   
-	  
-	    
+	     //handle the child window
 	  
 	    h1.add_to_cart();
 	

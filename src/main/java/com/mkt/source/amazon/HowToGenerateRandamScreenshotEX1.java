@@ -26,14 +26,10 @@ public class HowToGenerateRandamScreenshotEX1 {
 		System.out.println(count);
 		
 		a1.get(count-4).click();
-		
-			ChromeDriver t1=					driver;
-		File source=			t1.getScreenshotAs(OutputType.FILE);
+		ChromeDriver t1=driver;
+		File source=t1.getScreenshotAs(OutputType.FILE);
 		File destination=new File("Users\\abhishek\\soniya-eclipse-workspace\\Selenium2\\screenshots\\"+ new HowToGenerateRandamScreenshotEX1().getClass()+Math.random()+".png");
 			FileHandler.copy(source, destination);
-		
-		
-		//FileHandler.copy(source, destination);
 	}
 
 }

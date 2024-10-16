@@ -22,7 +22,6 @@ public class TestCase15_verify_without_login_go_till_cart_page extends  BaseLanc
 	a1.validate_product_added_sucess_message();
 	a1.go_cart_page(driver);
 	a1.validate_before_adding_product_to_card_Count();
-
 	
 	}
 

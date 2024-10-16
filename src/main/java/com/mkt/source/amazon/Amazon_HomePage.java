@@ -13,8 +13,6 @@ import org.openqa.selenium.support.PageFactory;
 public class Amazon_HomePage {
 
 	
-	//WebDriver driver;
-	//Search product in homepage
 	@FindBy(id="twotabsearchtextbox")
 	WebElement search_tf;
 	

@@ -21,6 +21,7 @@ public class TestCase6_verify_Searched_product_result_In_appearing_In_category_s
 	l1.validate_category_wise_search();
 	l1.validate_price_wise_search(driver);
 	l1.validate_price_wise_search(driver);
+	
 	}
 	
 }

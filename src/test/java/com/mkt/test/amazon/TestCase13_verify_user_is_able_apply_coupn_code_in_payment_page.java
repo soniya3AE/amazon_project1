@@ -31,17 +31,6 @@ public class TestCase13_verify_user_is_able_apply_coupn_code_in_payment_page  ex
 	p1.use_cash_on_delivery_method();
 	p1.enter_coupon_code();
 	
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
 	
 	}
 	

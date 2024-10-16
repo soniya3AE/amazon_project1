@@ -26,9 +26,7 @@ public class Procced_to_payment_page {
 	WebElement add_cart;
 	@FindBy(xpath="//div//h1")
 	WebElement added_cart_message;
-	
-	
-	
+
 	@FindBy(xpath="//span[@id='nav-cart-count']")
 	WebElement quantity_count;
 	@FindBy(xpath="(//a[@class='a-button-text'])[1]")

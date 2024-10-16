@@ -25,7 +25,6 @@ public class Add_to_cart_page {
 	WebElement add_cart;
 	@FindBy(xpath="//div//h1")
 	WebElement added_cart_message;
-
 	
 	@FindBy(xpath="//span[@id='nav-cart-count']")
 	WebElement quantity_count;
@@ -44,9 +43,6 @@ public class Add_to_cart_page {
 	
 	//div[@class='sc-without-multicart']
 	
-	
-	
-
 	// Step2 : define the method for webElement
 	
 	public void validate_select_searched_product(WebDriver driver) {
@@ -88,7 +84,6 @@ public class Add_to_cart_page {
 		
 	}
 	
-	
 	public void delete_product() {
 		delete_product_from_cart_page.click();
 		System.out.println("deleted product from cart");
@@ -105,18 +100,6 @@ public class Add_to_cart_page {
 		String after_adding_product_count = quantity_count.getText();
 		System.out.println("after adding the product to cart count is  :"+ after_adding_product_count);
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	// step3

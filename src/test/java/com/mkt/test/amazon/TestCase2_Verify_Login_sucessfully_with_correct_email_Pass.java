@@ -18,7 +18,6 @@ import com.mkt.source.amazon.Login_Amazon_Page;
 	
 	@Test
 	public void Login_sucesfully_with_correct_email_Password() throws InterruptedException {
-	
 	    Login_Amazon_Page l1 = new Login_Amazon_Page(driver); 
 		l1.mouseOver_singin(driver);
 	    l1.email();

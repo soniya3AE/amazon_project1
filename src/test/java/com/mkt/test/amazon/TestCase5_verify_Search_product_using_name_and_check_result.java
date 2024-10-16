@@ -19,7 +19,6 @@ public class TestCase5_verify_Search_product_using_name_and_check_result  extend
 	l1.enter_product_name_to_search_product();
 	l1.validate_searched_product_result(driver);
 	
-	
 	}
 	
 }

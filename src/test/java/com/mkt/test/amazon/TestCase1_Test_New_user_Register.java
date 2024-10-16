@@ -28,15 +28,6 @@ public class TestCase1_Test_New_user_Register   extends BaseLanchQuit{
 		a1.enter_Password();
 		a1.enter_PhoneNumber();
 	
-		
-
-		
-		
-		
-        
-	
 	}
 	
-	
-
 }

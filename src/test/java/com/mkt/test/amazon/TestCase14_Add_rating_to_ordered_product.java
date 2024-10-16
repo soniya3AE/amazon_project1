@@ -25,7 +25,6 @@ public class TestCase14_Add_rating_to_ordered_product  extends BaseLanchQuit{
 		order.give_four_star_rating();
 		order.raitng_submitted_sucesss_message();
 		
-
 	}
 
 }
