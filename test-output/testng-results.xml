@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Go to cart button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Porcced to bug button clicked]]>
+    </line>
+    <line>
+      <![CDATA[After adding product count :2]]>
+    </line>
+    <line>
+      <![CDATA[payment_page_cart_count:2]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-06-08T23:19:35 IST" name="Default suite" finished-at="2024-06-08T23:20:00 IST" duration-ms="24844">
+    <groups>
+    </groups>
+    <test started-at="2024-06-08T23:19:35 IST" name="Default test" finished-at="2024-06-08T23:20:00 IST" duration-ms="24844">
+      <class name="com.mkt.test.amazon.TestCase12_verify_selected_product_count_camapre_it_cart_product_count">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.mkt.test.amazon.TestCase12_verify_selected_product_count_camapre_it_cart_product_count@56cdfb3b]" started-at="2024-06-08T23:19:35 IST" name="launchBrowser" finished-at="2024-06-08T23:19:41 IST" duration-ms="5728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="search_product_verify_result()[pri:0, instance:com.mkt.test.amazon.TestCase12_verify_selected_product_count_camapre_it_cart_product_count@56cdfb3b]" started-at="2024-06-08T23:19:41 IST" name="search_product_verify_result" finished-at="2024-06-08T23:20:00 IST" duration-ms="18706" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Go to cart button clicked]]>
+            </line>
+            <line>
+              <![CDATA[Porcced to bug button clicked]]>
+            </line>
+            <line>
+              <![CDATA[After adding product count :2]]>
+            </line>
+            <line>
+              <![CDATA[payment_page_cart_count:2]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search_product_verify_result -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.mkt.test.amazon.TestCase12_verify_selected_product_count_camapre_it_cart_product_count@56cdfb3b]" started-at="2024-06-08T23:20:00 IST" name="closeBrowser" finished-at="2024-06-08T23:20:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.mkt.test.amazon.TestCase12_verify_selected_product_count_camapre_it_cart_product_count -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
